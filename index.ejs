@@ -1,0 +1,20 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store</title>
+</head>
+<body>
+  <h1>Welcome to our Online Store</h1>
+  <form action="/checkout" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <!-- Add other form fields here -->
+
+    <button type="submit">Checkout</button>
+  </form>
+</body>
+</html>
